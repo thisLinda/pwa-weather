@@ -1,5 +1,5 @@
 html {
-  background: rgb(243,243,243);
+  background: #ede7df;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15pt;
 }
@@ -14,13 +14,8 @@ body {
   place-items: center;
 }
 
-/* rem: relative to the font-size of the root element/containing block; in this case the root element has no specific width and is therefore determined by the content */
-/* 
-  Padding:
-  The transparent area around the content inside the element. Padding adds space between the content and the element's border.
-*/
-
 #converter {
+  background: #FF9999; background: linear-gradient(to bottom, #FF9999 0%, #F08A8A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF9999), color-stop(100%, #F08A8A)); background: -webkit-linear-gradient(top, #FF9999 0%, #F08A8A 100%); background: -moz-linear-gradient(top, #FF9999 0%, #F08A8A 100%); background: -o-linear-gradient(top, #FF9999 0%, #F08A8A 100%); background: -ms-linear-gradient(top, #FF9999 0%, #F08A8A 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9999', endColorstr='#F08A8A', GradientType=0); border: 1px solid #E17B7B; box-shadow: inset 0 1px 0 #FFA8A8; -webkit-box-shadow: inset 0 1px 0 #FFA8A8; -moz-box-shadow: inset 0 1px 0 #FFA8A8;
   width: 15rem;
   padding: 2rem;
   border-radius: .5rem;
@@ -31,6 +26,7 @@ body {
 }
 
 #converter input, #converter select {
+  background: #ede7df;
   font-family: inherit;
   font-size: inherit;
   margin-block-end: 1rem;
