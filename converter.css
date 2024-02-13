@@ -1,0 +1,44 @@
+html {
+  background: rgb(243,243,243);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15pt;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+/* rem: relative to the font-size of the root element/containing block; in this case the root element has no specific width and is therefore determined by the content */
+/* 
+  Padding:
+  The transparent area around the content inside the element. Padding adds space between the content and the element's border.
+*/
+
+#converter {
+  width: 15rem;
+  padding: 2rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 2rem 0 #0001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#converter input, #converter select {
+  font-family: inherit;
+  font-size: inherit;
+  margin-block-end: 1rem;
+  text-align: center;
+  width: 10rem;
+}
+
+#converter #output-temp {
+  font-size: 2rem;
+  font-weight: bold;
+}
